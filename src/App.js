@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import Feedback from './components/Feedback';
+import {BrowserRouter,Link,Route,Routes} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <h1>Blood Donation</h1>
-      <p>Lorem ipsumaaaaaaaaaaaaaaa</p>
+      <BrowserRouter >
+        <Routes>
+          <Route path='/' element={<Home/>}>home</Route>
+          <Route path='/feedback' element={<Feedback/>}>Feedback</Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
