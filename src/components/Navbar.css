@@ -1,10 +1,62 @@
 .navbar{
 
     display: flex;
+
+    background-color: rgb(255, 56, 56);
+    color:white;
+   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.logo{
     padding: 20px;
-    
+    margin-right: 20px;
+    font-size: 15px;
 }
 
+.navtabs{
+   width: 1100px;
+   display: inline-flex;
+   text-decoration: none;
+   text-decoration-line: none;
+   padding: 10px;
+}
+.navtabs a{
+    border-radius: 5px;
+    font-size: 20px;
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.8ms ease-in all;
+
+}
+.navtabs a:hover , .logintab a:hover{
+ 
+    color:rgb(36, 36, 36);
+  background-color: white;
+}
+.navbar a:active{
+    color:rgb(36, 36, 36);
+    background-color: white;
+}
+.logintab{
+    width: 100px;
+    display: inline-flex; 
+    float: right;
+    
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+.logintab a{
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8ms ease-in all;
+}
+/* 
 .bord{
     border: 1px red solid;
-}
+} */
