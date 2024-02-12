@@ -8,6 +8,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter >
+        <>
+          <Link to={"/"}><p>hoe</p></Link>
+          <Link to='/feedback'><p>feed</p></Link>        
+        </>
         <Routes>
           <Route path='/' element={<Home/>}>home</Route>
           <Route path='/feedback' element={<Feedback/>}>Feedback</Route>
