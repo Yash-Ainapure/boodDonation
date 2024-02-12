@@ -2,8 +2,8 @@ import React from 'react'
 import './Footer.css'
 export const Footer = () => {
   return (
-    <div className='foter-outer'>
-        <div className='bar'></div>
+    <div className='foter-outerc ' style={{color:"white", marginTop:"50px"}}>
+        
         <div className='footer'>
             <div>© 2022 Company, Inc</div>
             <div className='img'>
