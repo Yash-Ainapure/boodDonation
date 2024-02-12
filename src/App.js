@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Blood Donation</h1>
+      <p>Lorem ipsumaaaaaaaaaaaaaaa</p>
     </div>
   );
 }
